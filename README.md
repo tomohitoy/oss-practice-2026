@@ -21,6 +21,12 @@ Gitのブランチについて学びます．
 GitHubアカウントとSSH鍵を用意し，ローカルとリモートの間で履歴をやり取りする仕組み（`git clone`・`git push`・`origin/main`）を学びます．
 テンプレート（[tomohitoy/oss-template-2026](https://github.com/tomohitoy/oss-template-2026)）から `ユーザー名.github.io` リポジトリを作り，第6回で作ったサイトを `git push` して，`https://ユーザー名.github.io/` として公開します．
 
+### [第8回：プルリクエストを送る（Fork と Pull Request）](./chap08/README.md)
+
+書きこむ権限のない他人のリポジトリに，変更を提案する方法（Fork とプルリクエスト）を学びます．
+受講生のサイトの一覧（[tomohitoy/oss-gallery-2026](https://github.com/tomohitoy/oss-gallery-2026)）を Fork し，ブランチを作って自分のファイルを追加し，「私のサイトも載せてください」というプルリクエストを送ります．
+マージされると，[一覧ページ](https://tomohitoy.github.io/oss-gallery-2026/)に，第7回で公開した自分のサイトが並びます．
+
 ## テスト用環境の立ち上げ
 
 何も設定されていない環境を `docker` を利用することで起動できます．
